@@ -4,15 +4,13 @@ Bu repository, Next.js tabanlı uygulamalarda kullanılan çeşitli uluslararas�
 
 ## Kurulum
 
-Install with bun
+
 
 ```bash
     cd next-international
     bun Install
     bun dev
 ```
-
-or
 
 ```bash
     cd next-intl
