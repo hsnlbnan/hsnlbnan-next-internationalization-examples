@@ -1,0 +1,30 @@
+{
+  "Title": {
+    "client": "İstemci Bileşeni Örneği",
+    "server": "Sunucu Bileşeni Örneği"
+  },
+  "Index": {
+    "helloTitle": "Merhaba",
+    "hello": {
+      "world": "Dünya"
+    },
+    "hello.world": "Merhaba dünya!",
+    "welcome": "Merhaba {name}!",
+    "plural": "Çoğul Örnekler",
+    "cows": "İneğiniz {count, plural, =0 {yok} =1 {bir tane} other {# tane}}.",
+    "client": {
+      "component": {
+        "example": "İstemci bileşeni örneği"
+      }
+    },
+    "server": {
+      "component": {
+        "example": "Sunucu bileşeni örneği"
+      }
+    }
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, tr {🇹🇷 Türkçe} en {🇺🇸 English} other {Unknown}}"
+  }
+}
