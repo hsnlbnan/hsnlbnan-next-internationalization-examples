@@ -1,13 +1,13 @@
 "use client";
 
-import languages from "@/app/constants/languages";
-import { useChangeLocale, useCurrentLocale } from "@/app/locales/client";
+// import languages from "@/app/constants/languages";
+// import { useChangeLocale, useCurrentLocale } from "@/app/locales/client";
 import Link from "next/link";
 import React from "react";
 
 export const Header = () => {
-  const changeLocale = useChangeLocale();
-  const initialLocale = useCurrentLocale();
+  //   const changeLocale = useChangeLocale();
+  //   const initialLocale = useCurrentLocale();
 
   return (
     <header className="bg-gray-800 text-white p-4 flex items-center justify-between">
@@ -17,11 +17,11 @@ export const Header = () => {
           className="text-white text-xl font-light cursor-pointer"
           target="_blank"
         >
-          next-international
+          i18-next
         </Link>
       </h1>
 
-      <select
+      {/* <select
         className="bg-gray-900 text-white p-2 rounded"
         value={initialLocale}
         onChange={(e) =>
@@ -33,7 +33,7 @@ export const Header = () => {
             {name}
           </option>
         ))}
-      </select>
+      </select> */}
     </header>
   );
 };

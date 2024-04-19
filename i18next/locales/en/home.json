@@ -1,0 +1,33 @@
+{
+    "header": "Meine internationalisierte App",
+    "greeting": "Hab einen schönen Tag!",
+    "page2": "Gehe zu Seite 2",
+    "Title": {
+        "client": "Client component example",
+        "server": "Server component example"
+    },
+    "Index": {
+        "test": "Test EN",
+        "helloTitle": "Hello",
+        "hello": {
+            "world": "World"
+        },
+        "welcome": "Hello {{name}}!",
+        "plural": "Plural Examples",
+        "cows": "You have {{count, plural, =0 {no cows} =1 {one cow} other {# cows}}.",
+        "client": {
+            "component": {
+                "example": "Client component example"
+            }
+        },
+        "server": {
+            "component": {
+                "example": "Server component example"
+            }
+        }
+    },
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, tr {🇹🇷 Türkçe} en {🇺🇸 English} other {Unknown}}"
+    }
+}
