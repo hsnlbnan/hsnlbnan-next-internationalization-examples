@@ -6,6 +6,7 @@ import { Inter } from "next/font/google";
 import i18nConfig from "@/i18nConfig";
 
 import "./globals.css";
+import { Header } from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +28,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang={locale}>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header />
+        <main className="">{children}</main>
+      </body>
     </html>
   );
 }
